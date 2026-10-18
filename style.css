@@ -1,0 +1,21 @@
+#local-endpoint-library {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 5px;
+    margin: 4px 0 8px;
+}
+#local-endpoint-library select {
+    flex: 1 1 180px;
+    min-width: 0;
+    margin: 0;
+}
+#local-endpoint-library button {
+    flex: 0 0 auto;
+    margin: 0;
+    white-space: nowrap;
+}
+#local-endpoint-library button:disabled {
+    opacity: 0.45;
+    cursor: default;
+}
